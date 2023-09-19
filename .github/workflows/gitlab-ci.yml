@@ -12,6 +12,6 @@ jobs:
       - name: Install ⚙️
         run: npm ci
       - name: Build 🛠
-        run: npm run build:ci
+        run: npm run build
       - name: Test 📋
-        run: npm run test:ci
+        run: npm run test
