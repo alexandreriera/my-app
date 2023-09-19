@@ -9,11 +9,6 @@ jobs:
     steps:
       - name: Checkout ✅
         uses: actions/checkout@v4
-      - name: Setup 🏗
-        uses: actions/setup-node@v2
-        with:
-          node-version: lts/*
-          cache: 'npm'
       - name: Install ⚙️
         run: npm ci
       - name: Build 🛠
